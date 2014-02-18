@@ -1,0 +1,27 @@
+{
+  "name": "async.require.js",
+  "version": "0.0.1",
+  "description": "async load scripts onto the dom",
+  "main": "lib/async.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test/ -R spec"
+  },
+  "keywords": [
+    "async",
+    "client-side",
+    "require"
+  ],
+  "author": "dhigginbotham",
+  "license": "MIT",
+  "dependencies": {
+    "jade": "~1.1.5",
+    "express": "~3.4.8"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~1.17.1"
+  }
+}
